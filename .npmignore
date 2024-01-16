@@ -5,8 +5,10 @@ node_modules/
 src/**/*.spec.ts
 .eslintrc.json
 .gitignore
+.mocharc.json
 .npmignore
 .yarnrc.yml
 tsconfig.json
 tsup.config.ts
 yarn.lock
+web-test-runner.config.mjs
