@@ -3,6 +3,7 @@
 .yarn/
 node_modules/
 src/**/*.spec.ts
+.eslintrc.json
 .gitignore
 .npmignore
 .yarnrc.yml
