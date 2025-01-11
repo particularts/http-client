@@ -1,6 +1,6 @@
 {
 	"name": "@particular/http-client",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Universal modern HTTP client based on Fetch API",
 	"type": "module",
 	"exports": {
@@ -52,5 +52,9 @@
 		"ts-node": "^10.9.2",
 		"tsup": "^8.3.5",
 		"typescript": "^5.7.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/particularts/http-client"
 	}
 }
