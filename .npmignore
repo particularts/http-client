@@ -3,11 +3,11 @@
 .yarn/
 node_modules/
 src/**/*.spec.ts
-.eslintrc.json
 .gitignore
 .mocharc.json
 .npmignore
 .yarnrc.yml
+eslint.config.mjs
 tsconfig.json
 tsup.config.ts
 yarn.lock
