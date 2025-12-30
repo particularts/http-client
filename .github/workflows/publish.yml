@@ -4,6 +4,10 @@ on:
     tags:
       - '*'
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   tests:
     uses: ./.github/workflows/test.yml
@@ -56,5 +60,3 @@ jobs:
           cache: yarn
           registry-url: 'https://registry.npmjs.org'
       - run: npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
